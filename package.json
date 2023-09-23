@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-length",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Compute the number of elements in a normalized slice.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-ceil": "^0.0.8",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/math-base-special-ceil": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.0.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/slice-base-normalize-slice": "^0.0.1",
-    "@stdlib/slice-ctor": "github:stdlib-js/slice-ctor#main",
+    "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/slice-base-normalize-slice": "^0.1.0",
+    "@stdlib/slice-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"

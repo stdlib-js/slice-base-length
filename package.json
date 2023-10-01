@@ -41,7 +41,7 @@
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-base-incrspace": "^0.0.2",
+    "@stdlib/array-base-incrspace": "^0.1.0",
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/slice-base-normalize-slice": "^0.1.0",

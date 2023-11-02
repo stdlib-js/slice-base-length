@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/slice-base-length
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-length/tags). For example,
-
-```javascript
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@v0.1.1-deno/mod.js';
+var sliceLength = require( '@stdlib/slice-base-length' );
 ```
 
 <a name="main"></a>
@@ -67,8 +78,8 @@ import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length
 Returns the number of elements in a [normalized slice][@stdlib/slice/base/normalize-slice].
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@deno/mod.js';
+var Slice = require( '@stdlib/slice-ctor' );
+var normalizeSlice = require( '@stdlib/slice-base-normalize-slice' );
 
 var s = normalizeSlice( new Slice( -3, null, -1 ), 10, false );
 // returns <Slice>
@@ -98,10 +109,10 @@ var len = sliceLength( s );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@deno/mod.js';
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@deno/mod.js';
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@deno/mod.js';
+var Slice = require( '@stdlib/slice-ctor' );
+var normalizeSlice = require( '@stdlib/slice-base-normalize-slice' );
+var incrspace = require( '@stdlib/array-base-incrspace' );
+var sliceLength = require( '@stdlib/slice-base-length' );
 
 var s1 = new Slice( 2, null, -1 );
 var s2 = normalizeSlice( s1, 10, false );
@@ -189,7 +200,7 @@ console.log( '[ %s ]', incrspace( s2.start, s2.stop || -1, s2.step ).join( ', ' 
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -219,8 +230,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/slice-base-length.svg
 [npm-url]: https://npmjs.org/package/@stdlib/slice-base-length
 
-[test-image]: https://github.com/stdlib-js/slice-base-length/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/slice-base-length/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/slice-base-length/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/slice-base-length/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/slice-base-length/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/slice-base-length?branch=main
@@ -249,7 +260,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-length/main/LICENSE
 
-[@stdlib/slice/base/normalize-slice]: https://github.com/stdlib-js/slice-base-normalize-slice/tree/deno
+[@stdlib/slice/base/normalize-slice]: https://github.com/stdlib-js/slice-base-normalize-slice
 
 </section>
 

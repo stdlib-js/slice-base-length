@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isNonNegativeInteger = require( '@stdlib/assert-is-nonnegative-integer' ).isPrimitive;
 var Slice = require( '@stdlib/slice-ctor' );
 var normalizeSlice = require( '@stdlib/slice-base-normalize-slice' );

@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-length/tags). For example,
+
+```javascript
 import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@v0.2.2-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ var len = sliceLength( s );
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
 import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs';
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@v0.2.2-esm/index.mjs';
+import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@esm/index.mjs';
 
 var s1 = new Slice( 2, null, -1 );
 var s2 = normalizeSlice( s1, 10, false );

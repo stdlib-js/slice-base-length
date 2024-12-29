@@ -189,6 +189,14 @@ console.log( '[ %s ]', incrspace( s2.start, s2.stop || -1, s2.step ).join( ', ' 
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/slice-base/nonreduced-dimensions`][@stdlib/slice/base/nonreduced-dimensions]</span><span class="delimiter">: </span><span class="description">return a list of non-reduced dimensions in an un-normalized multi-slice.</span>
+-   <span class="package-name">[`@stdlib/slice-base/reduced-dimensions`][@stdlib/slice/base/reduced-dimensions]</span><span class="delimiter">: </span><span class="description">return a list of reduced dimensions in an un-normalized multi-slice.</span>
+-   <span class="package-name">[`@stdlib/slice-base/shape`][@stdlib/slice/base/shape]</span><span class="delimiter">: </span><span class="description">compute the shape of a normalized multi-slice.</span>
+
 </section>
 
 <!-- /.related -->
@@ -266,6 +274,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-length/main/LICENSE
 
 [@stdlib/slice/base/normalize-slice]: https://github.com/stdlib-js/slice-base-normalize-slice
+
+<!-- <related-links> -->
+
+[@stdlib/slice/base/nonreduced-dimensions]: https://github.com/stdlib-js/slice-base-nonreduced-dimensions
+
+[@stdlib/slice/base/reduced-dimensions]: https://github.com/stdlib-js/slice-base-reduced-dimensions
+
+[@stdlib/slice/base/shape]: https://github.com/stdlib-js/slice-base-shape
+
+<!-- </related-links> -->
 
 </section>
 

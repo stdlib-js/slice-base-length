@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-length",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Compute the number of elements in a normalized slice.",
   "license": "Apache-2.0",
   "author": {

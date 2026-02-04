@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@deno/mod.js';
+import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@v0.2.3-deno/mod.js';
 ```
 
 <a name="main"></a>
@@ -96,7 +96,7 @@ var len = sliceLength( s );
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
 import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@deno/mod.js';
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@deno/mod.js';
-import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@deno/mod.js';
+import sliceLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@v0.2.3-deno/mod.js';
 
 var s1 = new Slice( 2, null, -1 );
 var s2 = normalizeSlice( s1, 10, false );
